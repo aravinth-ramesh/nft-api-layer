@@ -1,0 +1,182 @@
+/* .sm-padding {
+  padding: 6em 0;
+} */
+
+h1 , h2 , h3, h4,h5 , h6{
+  font-weight: 700;
+}
+
+.header-nft-mode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nft-brand-info h2 {
+  font-size: 3.5em;
+  font-weight: 800;
+  background: red;
+  background: linear-gradient(90deg, red, #80f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nft-brand-info h4 {
+  font-size: 1.6em;
+  font-weight: 600;
+  padding: 0.5em 0;
+}
+.nft-brand-info p {
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1.8;
+}
+.nft-brand-info h3 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.8em;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.follow-us-btn {
+  background: #a070dd;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 0.5em 2em;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff !important;
+  letter-spacing: 0.5px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.nft-social-share-link {
+  display: flex;
+  align-items: center;
+}
+.nft-social-share-list li {
+  border: 1px solid #a070dd;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 0.5em 2em;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-right: 1em;
+}
+.nft-social-share-list li a {
+  color: #a070dd;
+  text-decoration: none;
+}
+.follow-us-btn {
+  text-decoration: none;
+}
+.nft-social-share-link li {
+  margin-right: 1em;
+}
+.nft-social-share-link li img {
+  max-width: 4em;
+}
+.social-icons {
+  height: 2em;
+}
+.nft-loot-banner-img-sec img {
+  width: 100%;
+}
+.image-title {
+  font-weight: 600;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.nft-loot-card {
+  padding: 2em;
+  border: 1px solid #eff2f7;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 20px 0 rgb(0 0 0 / 12%);
+  text-align: center;
+}
+.nft-loot-card p {
+  font-size: 17px;
+  line-height: 34px;
+  color: #a070dd;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-top: 0.5em;
+  text-decoration: none !important;
+}
+.nft-loot-load-more-btn-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 3em;
+}
+.load-more-btn {
+  background: #a070dd;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 0.5em 2em;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 23px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.switch-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+.switch-slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+.header-nft-mode form {
+  margin-bottom: 0;
+}
+input:checked + .switch-slider:before {
+  transform: translateX(15px);
+}
+input:checked + .switch-slider {
+  background-color: #a070dd;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.nft-loot-box a {
+  text-decoration: none;
+}
